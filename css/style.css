@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px; /* = 1rem */
+    font-family: 'Roboto', sans-serif;
+}
+.button:hover {
+    box-shadow: 0 0 10px blue ;
+    transition: 0.5s;
+}
+.container {
+    max-width: 1125px;
+    width: 100%;
+    margin: auto;
+}
+.link:hover {
+    color: blueviolet;
+    transition: 0.50s;
+}
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    margin-top: 50px;
+}
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.logo {
+    font-family: Revalia, serif;
+    font-size: 40px;
+    line-height: 60px;
+    color: #34547A;
+}
+.navigation {
+    max-width: 612px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__link {
+    color: #000;
+}
+.hero {
+    background: #EEEFF1;
+    padding-top: 250px;
+    padding-bottom: 153px;
+    margin-top: -110px;
+}
+.hero__img {
+     margin-left: 85px;
+}
+.info__block {
+    max-width: 540px;
+    width: 100%;
+}
+.hero__title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000;
+    margin-bottom: 60px;
+}
+.info__desc {
+    line-height: 26px;
+    color: #727272;
+
+}
+.button {
+    margin-top: 60px;
+    font-size: 16px;
+    background: #34547A;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 25px 41px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.section__about {
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+.hero__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.section__title {
+    margin-bottom: 50px;
+}
+.section__desc {
+    text-align: center;
+}
+.section__projects {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #34547a;
+}
+.text__block {
+    margin-left: 20px;
+    color: #fff;
+}
+.block__title {
+    font-size: 21px;
+    line-height: 25px;
+}
+.block__desc {
+    line-height: 26px;
+}
+.mine {
+    margin-top: 70px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.section__skills {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.line {
+    width: 445px;
+    height: 4px;
+    background: #C4C4C4;
+    margin-bottom: 30px;
+}
+.line__mini {
+    width: 349.36px;
+    height: 4px;
+    background: #34547A;
+}
+.skill {
+    margin-bottom: 20px;
+    line-height: 26px;
+    color: #727272;
+}
+.skill__img {
+    width: 555px;
+    height: 450px; 
+}
+.work {
+    background: #EEEFF1;
+}
+.work__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work__space {
+    text-align: center;
+    width: 540px;
+}
+.video {
+    margin-top: 57px;
+    width: 1110px;
+    height: 600px;  
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.25)), url(../img/video.png);
+}
+.section__pick {
+    max-width: 1920px;
+    width: 100%;
+}
+/* .pick__block {
+    display: flex;
+    flex-direction: column;
+} */
+.pick {
+    position: relative;
+    width: 480px;
+    height: 480px;
+}
+.pick__list {
+    background: url(../img/list.png);
+}
+.pick__book {
+    background: url(../img/book.png);
+}
+.pick:hover::before {
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    cursor: pointer;
+    content: '';
+    background: url(../img/eye.svg) no-repeat center,  linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8));
+}
+.pick__line {
+    display: flex;
+}
+.input__mini__block {
+    margin-top: 75px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content:space-between;
+    width: 540px;
+}
+.input__large {
+    width: 540px;
+    height: 175px;
+    background: #FFFFFF;
+    border: none;
+}
+.input__mini {
+    width: 255px;
+    height: 50px;
+    background: #FFFFFF;
+    border: none;
+}
+.section__footer {
+    justify-content: space-between;
+    background: #34547A;
+}
+.name {
+    color: #fff;
+}
+.name__title{
+     margin-bottom: 20px;
+}
+.links {
+    display: flex;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    justify-content: space-between;
+
+}

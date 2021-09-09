@@ -1,0 +1,16 @@
+@media (max-width: 1200px) {
+    .section__pick{
+        display: none;
+    }
+}
+@media (max-width: 1150px) {
+    .block {
+        padding: 0 10px;
+    }
+    .video {
+        max-width: 600px;
+    }
+    .skill__img {
+        display: none;
+    }
+}
